@@ -1,0 +1,18 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Apply styles to the root element */
+  .app {
+    background-color: #f0f0f0;
+  }
+  
+  /* Add more specific styles as needed for your App component */
+  

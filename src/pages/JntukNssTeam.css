@@ -1,0 +1,79 @@
+
+.jntuk-nss-team {
+    border: 2px solid #4a4a4a;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #e3d5d5;
+    box-shadow: 0 4px 6px rgba(222, 211, 211, 0.2);
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 60px; /* Adjust margin-top to create space between components */
+  }
+  
+  .jntuk-nss-team h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem; /* Add padding for better visibility */
+    background: linear-gradient(90deg, #1f1f1f, #333333);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .jntuk-nss-team ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .jntuk-nss-team li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #333333;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .jntuk-nss-team li:hover {
+    background-color: #444444;
+  }
+  
+  .jntuk-nss-team li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    animation: slideLeftToRight 5s linear infinite;
+  }
+  
+  .jntuk-nss-team li .details {
+    flex: 1;
+  }
+  
+  .jntuk-nss-team li .details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .jntuk-nss-team li .details p {
+    margin: 0;
+    color: #cccccc;
+  }
+  
+  @keyframes slideLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  

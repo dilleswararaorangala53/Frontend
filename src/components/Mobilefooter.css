@@ -1,0 +1,25 @@
+.mobilefooter {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px; /* Add padding to space out the content */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px; /* Adjust font size for smaller screens */
+}
+
+.mobilefooter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobilefooter a:hover {
+  text-decoration: underline;
+}
+
+/* Example: Add hover effect to links */
+.mobilefooter a:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}

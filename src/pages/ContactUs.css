@@ -1,0 +1,17 @@
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.about-container {
+  padding: 10px;
+}
+
+.col-lg-0 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}

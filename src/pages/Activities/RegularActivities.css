@@ -1,0 +1,66 @@
+/* RegularActivities.css */
+
+.RegularActivities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    /* padding: 20px; */
+    text-align: justify; /* Center align text */
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #333;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.RegularActivities-content {
+    margin-bottom: 20px;
+}
+
+.RegularActivities-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.RegularActivities-container p,
+.RegularActivities-container ul {
+    margin-bottom: 15px;
+}
+
+.RegularActivities-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.RegularActivities-container ul ul {
+    list-style-type: circle;
+    padding-left: 30px;
+}
+
+.RegularActivities-container h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.RegularActivities-container a {
+    color: #8b1f1f;
+    text-decoration: underline;
+}
+
+/* Style for list items */
+.RA-list-group {
+    margin-top: 20px; /* Add some spacing between heading and list */
+    padding: 0;
+}
+
+.RA-list-group-item {
+    text-align: justify; /* Justify text for better readability */
+    padding: 15px; /* Increase padding for better spacing */
+    border-radius: 8px; /* Increase border radius for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box-shadow effect for depth */
+    transition: background-color 0.3s ease; /* Add smooth transition for background color */
+}
+
+.RA-list-group-item:last-child {
+    margin-bottom: 0;
+}

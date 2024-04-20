@@ -1,0 +1,14 @@
+
+.about{
+    align-items: center;
+    width: 80%;
+    margin-left: 50px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    line-height: 2.0;
+  }
+  .head-acc{
+    border-top: 30px;
+    display: flexbox;
+    align-items: center;
+  }

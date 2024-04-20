@@ -1,0 +1,41 @@
+.SuggestiveListOfActivities-container {
+  padding-top: 2%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #333;
+  padding-bottom: 40px;
+}
+
+.SuggestiveListOfActivities-content {
+  margin-bottom: 20px;
+}
+
+.SuggestiveListOfActivities-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.SuggestiveListOfActivities-container p,
+.SuggestiveListOfActivities-container ul {
+  margin-bottom: 15px;
+}
+
+.SuggestiveListOfActivities-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.SuggestiveListOfActivities-container ul ul {
+  list-style-type: circle;
+  padding-left: 30px;
+}
+
+.SuggestiveListOfActivities-container h4 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.SuggestiveListOfActivities-container a {
+  color: #8b1f1f;
+  text-decoration: underline;
+}

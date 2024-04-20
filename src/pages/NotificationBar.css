@@ -1,0 +1,40 @@
+.notification-bar {
+  position: absolute;
+  bottom: 0; /* Position it at the bottom of the container */
+  width: 100%;
+  height: 50px;
+  background-color: #232931;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  animation: slideLeft 10s linear infinite;
+}
+
+.flash-highlight {
+  width: 80px;
+  height: 50px;
+  background-color: #ad1417;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.notification-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add text ellipsis if overflow */
+  flex: 1; /* Take remaining space */
+  padding-left: 120px;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,24 @@
+.activities-table {
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 4%;
+  }
+  
+  .activities-table th, .activities-table td {
+    border: 1px solid #ddd; /* Border color */
+    padding: 8px;
+  }
+  
+  .activities-table th {
+    background-color: #f2f2f2; /* Header background color */
+    text-align: left;
+  }
+  
+  .activities-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Even row background color */
+  }
+  
+  .activities-table tbody tr:hover {
+    background-color: #ddd; /* Hovered row background color */
+  }
+  

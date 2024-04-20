@@ -1,0 +1,44 @@
+/* SpecialCampingPrograms.css */
+
+.special-camping-programs-container {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: auto;
+    /* padding: 20px; */
+    padding-bottom: 4%;
+    padding-top: 2%;
+  }
+  
+  .special-camping-programs-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .special-camping-programs-container p {
+    margin-bottom: 15px;
+  }
+  
+  .special-camping-programs-container div u {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .special-camping-programs-container div b {
+    font-weight: bold;
+  }
+  
+  .special-camping-programs-container .list-group {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .special-camping-programs-container .list-group-item {
+    padding: 5px 0;
+  }
+  
+  .Mobilefooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  

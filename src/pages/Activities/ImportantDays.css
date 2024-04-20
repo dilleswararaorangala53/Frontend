@@ -1,0 +1,31 @@
+.ID-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 150%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    /* padding-top: 2% ; */
+   
+  }
+  
+  .list-group {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 3%;
+    text-align: auto; /* Center the text within the list items */
+  }
+  
+  .list-group-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .list-group-item:last-child {
+    margin-bottom: 0;
+  }
+  

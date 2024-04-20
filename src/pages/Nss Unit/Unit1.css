@@ -1,0 +1,86 @@
+/* Unit1.css */
+
+/* Main container styles */
+.mainContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* background-color: rgb(212, 247, 235); */
+}
+
+/* Left menu styles */
+.allLeftMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menuButton {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+  border-radius: 20px; /* Make the button oval-shaped by setting border-radius to half of the button's height */
+}
+
+.menuButton:hover {
+  background-color: #690001;
+}
+
+.menuButton.active {
+  background-color: #690001;
+}
+
+/* Right content styles */
+.allRightContent {
+  flex-grow: 1;
+}
+
+.allRightContentHeading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e0669;
+}
+
+/* Profile container styles */
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Profile image styles */
+.profileImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Profile details styles */
+.profileDetails {
+  text-align: center;
+  font-size: 18px;
+  color: #2e0669;
+}
+
+/* Profile description styles */
+.profileDescription {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
