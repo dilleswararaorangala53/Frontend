@@ -15,16 +15,7 @@ const Notifications = () => {
   useEffect(() => {
     getInfo();
   }, [])
-  const nnotifications = [
-    {
-      date: '2024-01-20',
-      title: 'J. - N. - T. - University Kakinada - NSS - Cell - Deputation - of NCC - Volunteers.pdf',
-    },
-    {
-      date: '2024-01-03',
-      title: 'JNTUK - Kakinada - NSS Cell - Circular',
-    },
-  ];
+ 
 
   return (
     <div className="notifications">

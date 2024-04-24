@@ -24,6 +24,9 @@ import TeamMembers2 from './pages/Nss Unit/TeamMembers2';
 import FormPage from '../src/pages/FormPage'; // Assuming this is where the form is located
 import Downloadform from './pages/DownloadButton';
 import Updateform from './pages/UpdateButton';
+import Latestnewsbutton from './pages/Latestnewsbutton';
+import Deleteupdates from './pages/Deleteupdates';
+import Deleteevents from './pages/Deleteevents';
 
 function AppRouter() {
   return (
@@ -57,6 +60,9 @@ function AppRouter() {
         <Route path="/download" element={<Downloads />} />
         <Route path="/downloadform" element={<Downloadform />} />
         <Route path="/updateform" element={<Updateform />} />
+        <Route path="/latestnews" element={<Latestnewsbutton />} />
+        <Route path='/deleteupdates' element={<Deleteupdates />} />
+        <Route path='/deleteevents' element={<Deleteevents/>} />
       </Routes>
     </Router>
   );

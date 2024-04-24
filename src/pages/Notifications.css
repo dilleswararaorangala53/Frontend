@@ -11,15 +11,16 @@
     margin: 0 auto;
     padding: 1rem;
     margin-bottom: 1rem;
-
+    margin-right: 5%;
   }
   
   .notifications h2 {
-    margin-top: 1;
+    margin-top: -18px;
     font-size: 1.8rem;
     color: #363174;
-    position: sticky;
+    position: relative;
     top: 0;
+    text-align: center;
     background-color: #fff;
     z-index: 1;
     border-top-left-radius: 20px; /* Adjust the value for the desired curvature */
@@ -32,7 +33,7 @@
     list-style: none;
     padding: 0;
     margin: 2rem 0 0;
-    animation: slideContinuous 15s linear infinite;
+    animation: slideContinuous 25s linear infinite;
     animation-play-state: running;
   }
   

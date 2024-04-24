@@ -11,6 +11,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import axios from 'axios'; // Import Axios for making HTTP requests
 import { Label } from '@mui/icons-material';
+import { Link } from "react-router-dom";
 
 const VisuallyHiddenInput = styled('input')({
   clip: 'rect(0 0 0 0)',
@@ -107,6 +108,14 @@ export default function Updateform() {
             >
               SUBMIT
             </Button>
+            <Button variant="contained">
+          <Link
+            to="/deleteupdates"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            To Delete Files
+          </Link>
+        </Button>
           </Box>
         </Box>
       </Container>

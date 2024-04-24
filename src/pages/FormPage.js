@@ -58,6 +58,14 @@ function FormPage() {
             Updates
           </Link>
         </Button>
+        <Button variant="contained">
+          <Link
+            to="/latestnews"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Latest news
+          </Link>
+        </Button>
       </div>
     </div>
   );

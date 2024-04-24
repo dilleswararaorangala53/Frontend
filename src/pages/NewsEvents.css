@@ -2,25 +2,29 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    background-color: #fff;
+    background-color:#e8d5d5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 50%;
     margin: 0 auto;
     padding: 1rem;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 1rem;
     position: relative;
-    float: left;
+    float: left; 
+    margin-left: -3%;
   }
   
   .news-events h2 {
-    margin-top: 0;
+    margin-top: -15px;
     font-size: 1.8rem;
     color: #333;
-    position: sticky;
-    top: 0; /* Keep the header sticky at the top */
+    position: relative;
+     /*Keep the header sticky at the top*/
     background-color: #fff; /* Set background color to match the container background */
     z-index: 1; /* Ensure the header is above other content */
+    border-top-left-radius: 20px; /* Adjust the value for the desired curvature */
+    border-top-right-radius: 20px; /* Adjust the value for the desired curvature */
+    padding: 1rem;
   }
   
   .news-events ul {
